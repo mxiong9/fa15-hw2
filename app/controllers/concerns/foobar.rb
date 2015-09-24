@@ -6,7 +6,7 @@ class Foobar
   	@sat = "dat"
   end
 
-  def bar(b, c)
+  def bar(param1, options={})
   	"#{@cat}#{@dat}#{@sat}"
   end
 end
